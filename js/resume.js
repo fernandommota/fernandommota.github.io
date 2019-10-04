@@ -204,6 +204,12 @@
   {
     id: 'BACK-END-04',
     parent: 'BACK-END',
+    name: 'NodeJS',
+    value: 5
+  },
+  {
+    id: 'BACK-END-05',
+    parent: 'BACK-END',
     name: 'API REST',
     value: 5
   },
