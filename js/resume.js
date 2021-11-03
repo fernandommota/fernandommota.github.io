@@ -464,8 +464,8 @@
         }]
     });
 
-
-    $("#footer-credits").append("2019 - ©Fernando Maia da Mota ");
+    const now = new Date();
+    $("#footer-credits").append(now.getFullYear() + " - ©Fernando Maia da Mota ");
 
 
 })(jQuery); // End of use strict
