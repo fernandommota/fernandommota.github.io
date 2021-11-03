@@ -263,7 +263,7 @@
         },
 
         title: {
-            text: 'Skills per concept and technologies'
+            text: 'Skills per concept and technologies'.toUpperCase()
         },
         subtitle: {
             text: ''
@@ -343,7 +343,7 @@
             visible: false
         },
         title: {
-            text: 'Timeline of Experience'
+            text: 'Timeline of Experience'.toUpperCase()
         },
         subtitle: {
             text: 'Education and profissional experience between 2007 to 2015'
@@ -421,7 +421,7 @@
             visible: false
         },
         title: {
-            text: 'Timeline of Experience'
+            text: 'Timeline of Experience'.toUpperCase()
         },
         subtitle: {
             text: 'Profissional experience between 2016 to 2021'
