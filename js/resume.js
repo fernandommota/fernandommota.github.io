@@ -31,9 +31,9 @@
             parent: '',
             name: 'Skills'
         }, {
-            id: 'BI',
+            id: 'DATA-SCIENCE',
             parent: 'SKILLS',
-            name: 'BI'
+            name: 'DATA SCIENCE'
         }, {
             id: 'ML',
             parent: 'SKILLS',
@@ -55,7 +55,7 @@
         /* Data Warehouse */
         {
             id: 'DW',
-            parent: 'BI',
+            parent: 'DATA-SCIENCE',
             name: 'Data Warehouse'
         },
         {
@@ -82,7 +82,7 @@
         /* Tools */
         {
             id: 'BI-TOOLS',
-            parent: 'BI',
+            parent: 'DATA-SCIENCE',
             name: 'Tools'
         },
         {
@@ -115,11 +115,21 @@
             parent: 'BI-TOOLS',
             name: 'Column SGBD',
             value: 5
+        }, {
+            id: 'BI-TOOLS-07',
+            parent: 'BI-TOOLS',
+            name: 'Data Factory',
+            value: 5
+        }, {
+            id: 'BI-TOOLS-08',
+            parent: 'BI-TOOLS',
+            name: 'Synapses',
+            value: 5
         },
         /* Tools */
         {
             id: 'VIS',
-            parent: 'BI',
+            parent: 'DATA-SCIENCE',
             name: 'Visualization'
         },
         {
@@ -139,6 +149,12 @@
             name: 'Highcharts',
             value: 5
         },
+        {
+            id: 'VIS-02',
+            parent: 'VIS',
+            name: 'Power BI',
+            value: 5
+        },
         /* Machine Learning */
         {
             id: 'DM',
@@ -154,6 +170,11 @@
             id: 'DM-02',
             parent: 'DM',
             name: 'Python',
+            value: 5
+        }, {
+            id: 'DM-03',
+            parent: 'DM',
+            name: 'Pytorch',
             value: 5
         },
         /* FRONT-END */
@@ -459,6 +480,10 @@
             }, {
                 name: 'BovBI realease your third ERP',
                 label: '2020: Starts to develop ERP solutions (financial and zootechnician) to Agropecuária Solo Mio company',
+                description: ''
+            }, {
+                name: 'As a employee starts to work at Plange',
+                label: '2022: Supervisor of Data Science and Data Analytics',
                 description: ''
             }, ]
         }]
