@@ -445,7 +445,7 @@
             text: 'Timeline of Experience'.toUpperCase()
         },
         subtitle: {
-            text: 'Profissional experience between 2016 to 2021'
+            text: 'Profissional experience between 2016 to 2022'
         },
         credits: {
             text: ''
