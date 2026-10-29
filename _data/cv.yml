@@ -1,0 +1,107 @@
+cv:
+  name: Fernando Maia da Mota
+  label: PhD student in Computer Science
+  email: fernando.mota@ufms.br
+  location: Campo Grande, MS, Brazil
+  image: ""
+  summary: PhD student at FACOM/UFMS working on text anonymization under the inference capabilities of large language models, with more than a decade of industry experience in data engineering, data warehousing and analytics.
+
+  social_networks:
+    - network: GitHub
+      username: fernandommota
+    - network: LinkedIn
+      username: fernandommota
+    - network: ORCID
+      username: 0009-0007-4266-455X
+
+  sections:
+    Education:
+      - institution: Federal University of Mato Grosso do Sul (UFMS)
+        location: Campo Grande, Brazil
+        url: https://www.facom.ufms.br/
+        area: Computer Science
+        studyType: PhD (in progress)
+        start_date: 2024
+        end_date: present
+        highlights:
+          - "Research: text anonymization under the inference capabilities of large language models."
+          - "Advisor: Prof. Edson Takashi Matsubara. Co-advisor: Prof. Jonathan de Andrade Silva."
+
+      - institution: Federal University of Mato Grosso do Sul (UFMS)
+        location: Campo Grande, Brazil
+        area: Applied Computing
+        studyType: Professional MSc
+        start_date: 2013
+        end_date: 2016
+        highlights:
+          - "Thesis: Uma Abordagem de Análises OLAP e de Mineração de Dados para Suporte à Tomada de Decisão no Setor da Pecuária de Corte do Brasil."
+          - "Advisor: Prof. Renato Porfirio Ishii. Co-advisor: Rodrigo da Costa Gomes."
+
+      - institution: Federal University of Mato Grosso do Sul (UFMS), Coxim campus
+        location: Coxim, Brazil
+        area: Information Systems
+        studyType: BSc
+        start_date: 2007
+        end_date: 2011
+        highlights:
+          - "Final project: Uma Estratégia para Publicação dos Dados da Base do CEB-INEP/MEC no Padrão Linked Open Data."
+          - "Advisor: Prof. Karen Kiomi Nakazato."
+
+    Experience:
+      - company: Plaenge Group
+        position: Data Science and Data Analytics Coordinator
+        start_date: 2022-03
+        end_date: 2026
+        highlights:
+          - "Data lakehouse on Azure Data Lake and Delta Lake, with Azure Synapse, Data Factory and Apache Spark."
+          - "Data warehouse design and performance; ETL/ELT pipelines; Power BI and Report Builder solutions."
+
+      - company: Bov BI – Business Intelligence for Agribusiness
+        position: Data Engineer, BI Analyst and Web Developer
+        start_date: 2016-03
+        end_date: 2022-03
+        highlights:
+          - "Data warehouse design, ETL, OLAP cubes, reports and dashboards (Pentaho)."
+          - "ERP, web and mobile development (Python/Django, Node.js APIs, Ionic)."
+
+      - company: IT4biz IT Solutions
+        position: Senior BI Analyst and Business Intelligence Instructor
+        start_date: 2012-01
+        end_date: 2015-12
+        highlights:
+          - "Instructor of the Pentaho suite; development of OLAP cubes, dashboards and ETL processes."
+
+      - company: Federal University of Mato Grosso do Sul (UFMS)
+        position: Substitute Lecturer
+        start_date: 2014-08
+        end_date: 2015-07
+        url: https://fernandommota.github.io/academy/
+        highlights:
+          - "Introduction to Digital Systems; Foundations of Object-Oriented Programming; Topics in Information Systems; Software Analysis and Design; Algorithms and Programming."
+
+      - company: Federal University of Mato Grosso do Sul (UFMS)
+        position: Undergraduate Researcher and Project Assistant
+        start_date: 2008
+        end_date: 2011
+        highlights:
+          - "Research in data warehousing, Linked Data and web development; analyst for UFMS distance-education and institutional-evaluation systems."
+
+    Awards:
+      - title: Outstanding Student of the 2011 class, BSc in Information Systems (UFMS/CPCX)
+        date: 2011
+        awarder: Brazilian Computer Society (SBC)
+
+      - title: Motion of Applause
+        date: 2010
+        awarder: Campus Council, UFMS Coxim campus
+
+      - title: 2nd place in the presentation of accepted papers, XXVII ENECOMP
+        date: 2009
+        awarder: National Congress of Computing Students (ENECOMP)
+
+    Languages:
+      - name: Portuguese
+        summary: Native speaker
+
+      - name: English
+        summary: Good reading and comprehension; fair speaking and writing
