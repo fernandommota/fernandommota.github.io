@@ -9,7 +9,6 @@ Academic website of Fernando Maia da Mota, built with [al-folio](https://github.
 | Bio and profile | `_pages/about.md` |
 | Publications | `_bibliography/papers.bib` (`selected = {true}` shows the paper on the home page) |
 | News | one file per item in `_news/` |
-| Projects | `_projects/` |
 | CV | `_data/cv.yml` |
 | Social links | `_data/socials.yml` |
 | Site settings | `_config.yml` |
