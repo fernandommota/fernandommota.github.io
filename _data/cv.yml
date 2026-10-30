@@ -4,7 +4,7 @@ cv:
   email: fernando.mota@ufms.br
   location: Campo Grande, MS, Brazil
   image: ""
-  summary: PhD student at FACOM/UFMS working on text anonymization under the inference capabilities of large language models, with more than a decade of industry experience in data engineering, data warehousing and analytics.
+  summary: PhD student at FACOM/UFMS working on text anonymization under the inference capabilities of large language models. Before the PhD, 15 years in industry building data platforms and applied AI systems, most recently as technical lead of a data and AI team that grew from 3 to 12 people, delivering an analytics lakehouse, an enterprise LLM platform and production RAG applications.
 
   social_networks:
     - network: GitHub
@@ -21,7 +21,7 @@ cv:
         url: https://www.facom.ufms.br/
         area: Computer Science
         studyType: PhD (in progress)
-        start_date: 2024
+        start_date: 2024-03
         end_date: present
         highlights:
           - "Research: text anonymization under the inference capabilities of large language models."
@@ -49,15 +49,19 @@ cv:
 
     Experience:
       - company: Plaenge Group
-        position: Data Science and Data Analytics Coordinator
-        start_date: 2022-03
-        end_date: 2026
+        position: Data Science and AI Tech Lead
+        start_date: 2022-04
+        end_date: 2026-01
         highlights:
-          - "Data lakehouse on Azure Data Lake and Delta Lake, with Azure Synapse, Data Factory and Apache Spark."
-          - "Data warehouse design and performance; ETL/ELT pipelines; Power BI and Report Builder solutions."
+          - "Built and led the data team, from 3 to 12 people across data engineering, analytics engineering and applied AI; set technical standards and mentored engineers coming from economics and business analytics."
+          - "**Enterprise AI platform (LLM hub):** designed a single internal API for LLM access, with authentication, auditing and guardrails by default, plus shared endpoints for embeddings and RAG. It serves a GenAI sales-development chat that handles 200–300 conversations a day and an internal expert-search tool."
+          - "**BIM analytics platform:** modeled IFC building models as graphs and loaded them into a Bronze/Silver/Gold lakehouse covering 70+ active and 50+ completed projects (700+ models), giving the BIM team cross-project indicators of model quality and clash history. Proofs of concept: [gnn_bim](https://github.com/fernandommota/gnn_bim), [graphrag_bim](https://github.com/fernandommota/graphrag_bim)."
+          - "**CRM to lakehouse sync:** incremental synchronization of Microsoft Dynamics (Dataverse) data into Delta tables, which moved analytics out of the CRM and cut Dataverse storage from about 750 GB to 200 GB."
+          - "**Schedule:** a declarative ingestion framework on Spark and Delta Lake (Azure Synapse) that let junior engineers add sources by configuration; it ran about 20,000 ingestion jobs a month at peak."
+          - "Lakehouse on Azure Data Lake and Delta Lake, with Azure Synapse, Data Factory, Apache Spark and Airflow; Power BI reporting. Architecture work contributed to an estimated 25–35% reduction in analytics processing costs."
 
       - company: Bov BI – Business Intelligence for Agribusiness
-        position: Data Engineer, BI Analyst and Web Developer
+        position: Founder; Data Engineer and BI Consultant
         start_date: 2016-03
         end_date: 2022-03
         highlights:
@@ -99,9 +103,19 @@ cv:
         date: 2009
         awarder: National Congress of Computing Students (ENECOMP)
 
+    Skills:
+      - name: Applied AI and LLMs
+        keywords: [RAG, embeddings, AI agents, LLM platforms and governance, GraphRAG, graph neural networks]
+      - name: Data engineering
+        keywords: [Lakehouse (Bronze/Silver/Gold), Apache Spark, Delta Lake, Airflow, Azure Synapse, Azure Data Factory, data warehousing, OLAP]
+      - name: Languages and tools
+        keywords: [Python, SQL, Neo4j, Power BI, Pentaho, Docker]
+      - name: Cloud
+        keywords: [Microsoft Azure, Azure AI Foundry, AWS]
+
     Languages:
       - name: Portuguese
         summary: Native speaker
 
       - name: English
-        summary: Good reading and comprehension; fair speaking and writing
+        summary: Full professional proficiency
