@@ -239,6 +239,7 @@ exclude:
   - migrations/
   - vendor
   - "*Lattes*.pdf"
+  - "Profile_LinkedIn*.pdf"
 keep_files:
   - CNAME
   - .nojekyll

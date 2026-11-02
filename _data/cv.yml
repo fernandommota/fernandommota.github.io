@@ -4,7 +4,7 @@ cv:
   email: fernando.mota@ufms.br
   location: Campo Grande, MS, Brazil
   image: ""
-  summary: PhD student at FACOM/UFMS working on text anonymization under the inference capabilities of large language models. Before the PhD, 15 years in industry building data platforms and applied AI systems, most recently as technical lead of a data and AI team that grew from 3 to 12 people, delivering an analytics lakehouse, an enterprise LLM platform and production RAG applications.
+  summary: PhD student at FACOM/UFMS working on text anonymization under the inference capabilities of large language models, and Senior Data & AI Software Engineer at LIA, building production AI systems for legal documents at the State Attorney's Office of Mato Grosso do Sul (PGE-MS). 15+ years in industry building data platforms and applied AI systems, including technical lead of a data and AI team that grew from 3 to 12 people and delivered an analytics lakehouse, an enterprise LLM platform and production RAG applications.
 
   social_networks:
     - network: GitHub
@@ -48,6 +48,17 @@ cv:
           - "Advisor: Prof. Karen Kiomi Nakazato."
 
     Experience:
+      - company: LIA – Laboratório de Inteligência Artificial
+        position: Senior Data & AI Software Engineer (Applied AI)
+        location: Campo Grande, Brazil
+        start_date: 2026-02
+        end_date: present
+        highlights:
+          - "Public-sector innovation project that automates judicial processes at the State Attorney's Office of Mato Grosso do Sul (PGE-MS), with a focus on healthcare-related cases."
+          - "Design of solution and data architectures for production AI systems: document analysis, legal text automation and expert-calculation support."
+          - "NLP and machine learning over large volumes of legal documents; AI-driven pipelines that automate repetitive workflows."
+          - "Integration with existing government data systems, with attention to accuracy, auditability and governance."
+
       - company: Plaenge Group
         position: Data Science and AI Tech Lead
         start_date: 2022-04
