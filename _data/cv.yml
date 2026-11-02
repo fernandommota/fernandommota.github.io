@@ -1,0 +1,137 @@
+cv:
+  name: Fernando Maia da Mota
+  label: Data & AI Software Engineer | Applied AI, MLOps, Cloud Data Platforms | PhD student at UFMS
+  email: fernando.mota@ufms.br
+  location: Campo Grande, MS, Brazil
+  image: ""
+  summary: PhD student at FACOM/UFMS working on text anonymization under the inference capabilities of large language models, and Senior Data & AI Software Engineer at LIA, building production AI systems for legal documents at the State Attorney's Office of Mato Grosso do Sul (PGE-MS). 15+ years in industry building data platforms and applied AI systems, including technical lead of a data and AI team that grew from 3 to 12 people and delivered an analytics lakehouse, an enterprise LLM platform and production RAG applications.
+
+  social_networks:
+    - network: GitHub
+      username: fernandommota
+    - network: LinkedIn
+      username: fernandommota
+    - network: ORCID
+      username: 0009-0007-4266-455X
+
+  sections:
+    Education:
+      - institution: Federal University of Mato Grosso do Sul (UFMS)
+        location: Campo Grande, Brazil
+        url: https://www.facom.ufms.br/
+        area: Computer Science
+        studyType: PhD (in progress)
+        start_date: 2024-03
+        end_date: present
+        highlights:
+          - "Research: text anonymization under the inference capabilities of large language models."
+          - "Advisor: Prof. Edson Takashi Matsubara. Co-advisor: Prof. Jonathan de Andrade Silva."
+
+      - institution: Federal University of Mato Grosso do Sul (UFMS)
+        location: Campo Grande, Brazil
+        area: Applied Computing
+        studyType: Professional MSc
+        start_date: 2013
+        end_date: 2016
+        highlights:
+          - "Thesis: Uma Abordagem de Análises OLAP e de Mineração de Dados para Suporte à Tomada de Decisão no Setor da Pecuária de Corte do Brasil."
+          - "Advisor: Prof. Renato Porfirio Ishii. Co-advisor: Rodrigo da Costa Gomes."
+
+      - institution: Federal University of Mato Grosso do Sul (UFMS), Coxim campus
+        location: Coxim, Brazil
+        area: Information Systems
+        studyType: BSc
+        start_date: 2007
+        end_date: 2011
+        highlights:
+          - "Final project: Uma Estratégia para Publicação dos Dados da Base do CEB-INEP/MEC no Padrão Linked Open Data."
+          - "Advisor: Prof. Karen Kiomi Nakazato."
+
+    Experience:
+      - company: LIA – Laboratório de Inteligência Artificial
+        position: Senior Data & AI Software Engineer (Applied AI)
+        location: Campo Grande, Brazil
+        start_date: 2026-02
+        end_date: present
+        highlights:
+          - "Public-sector innovation project that automates judicial processes at the State Attorney's Office of Mato Grosso do Sul (PGE-MS), with a focus on healthcare-related cases."
+          - "Design of solution and data architectures for production AI systems: document analysis, legal text automation and expert-calculation support."
+          - "NLP and machine learning over large volumes of legal documents; AI-driven pipelines that automate repetitive workflows."
+          - "Integration with existing government data systems, with attention to accuracy, auditability and governance."
+
+      - company: Plaenge Group
+        position: Data Science and AI Tech Lead
+        start_date: 2022-04
+        end_date: 2026-01
+        highlights:
+          - "Built and led the data team, from 3 to 12 people across data engineering, analytics engineering and applied AI; set technical standards and mentored engineers coming from economics and business analytics."
+          - "**Enterprise AI platform (LLM hub):** designed a single internal API for LLM access, with authentication, auditing and guardrails by default, plus shared endpoints for embeddings and RAG. It serves a GenAI sales-development chat that handles 200–300 conversations a day and an internal expert-search tool."
+          - "**BIM analytics platform:** modeled IFC building models as graphs and loaded them into a Bronze/Silver/Gold lakehouse covering 70+ active and 50+ completed projects (700+ models), giving the BIM team cross-project indicators of model quality and clash history. Proofs of concept: [gnn_bim](https://github.com/fernandommota/gnn_bim), [graphrag_bim](https://github.com/fernandommota/graphrag_bim)."
+          - "**CRM to lakehouse sync:** incremental synchronization of Microsoft Dynamics (Dataverse) data into Delta tables, which moved analytics out of the CRM and cut Dataverse storage from about 750 GB to 200 GB."
+          - "**Schedule:** a declarative ingestion framework on Spark and Delta Lake (Azure Synapse) that let junior engineers add sources by configuration; it ran about 20,000 ingestion jobs a month at peak."
+          - "Led the migration of QlikView solutions and on-premises Power BI reports to a cloud lakehouse with Delta tables and a governed semantic layer in Power BI workspaces."
+          - "Lakehouse on Azure Data Lake and Delta Lake, with Azure Synapse, Data Factory, Apache Spark, Airflow and DuckDB. Architecture work contributed to an estimated 25–35% reduction in analytics processing costs."
+
+      - company: Bov BI – Business Intelligence for Agribusiness
+        position: Founder and Data Architect
+        start_date: 2016-03
+        end_date: 2022-03
+        highlights:
+          - "Founded and ran an analytics consultancy for agribusiness, from requirements with business leaders to deployment."
+          - "**Agribusiness analytics platform:** BI platform for a cattle producers association with 600+ producers and about 1,200 farms, with drill-down from executive KPIs to individual producers; it replaced manual reporting that took weeks and gave auditable metrics for negotiations with industry partners."
+          - "Data warehouse design, ETL, OLAP cubes, reports and dashboards (Pentaho)."
+          - "ERP, web and mobile development (Python/Django, Node.js APIs, Ionic)."
+
+      - company: IT4biz IT Solutions
+        position: Senior BI Analyst and Business Intelligence Instructor
+        start_date: 2012-01
+        end_date: 2015-12
+        highlights:
+          - "Instructor of the Pentaho suite; development of OLAP cubes, dashboards and ETL processes."
+          - "Principal committer of open-source Pentaho community extensions: [Kettle Web Integrator](https://github.com/it4biz/kettle-web-integrator) (web integration layer for Pentaho Data Integration), [Saiku Chart Plus](https://github.com/it4biz/SaikuChartPlus) (extra charts for Saiku Analytics) and [Pentaho CE Audit](https://github.com/it4biz/pentaho-ce-audit) (auditing and monitoring for Pentaho Community Edition)."
+
+      - company: Federal University of Mato Grosso do Sul (UFMS)
+        position: Substitute Lecturer
+        start_date: 2014-08
+        end_date: 2015-07
+        url: https://fernandommota.github.io/academy/
+        highlights:
+          - "Introduction to Digital Systems; Foundations of Object-Oriented Programming; Topics in Information Systems; Software Analysis and Design; Algorithms and Programming."
+
+      - company: Federal University of Mato Grosso do Sul (UFMS)
+        position: Undergraduate Researcher and Project Assistant
+        start_date: 2009-01
+        end_date: 2011-06
+        highlights:
+          - "Data webhouse that consolidated national INEP school census data and state education systems, with drill-down from state to student level and indicators such as age–grade distortion and IDEB inputs."
+          - "Research in data warehousing, Linked Data and web development; analyst for UFMS distance-education and institutional-evaluation systems."
+
+    Awards:
+      - title: Outstanding Student of the 2011 class, BSc in Information Systems (UFMS/CPCX)
+        date: 2011
+        awarder: Brazilian Computer Society (SBC)
+
+      - title: Motion of Applause
+        date: 2010
+        awarder: Campus Council, UFMS Coxim campus
+
+      - title: 2nd place in the presentation of accepted papers, XXVII ENECOMP
+        date: 2009
+        awarder: National Congress of Computing Students (ENECOMP)
+
+    Skills:
+      - name: Applied AI and LLMs
+        keywords: [RAG, embeddings, AI agents, LLM platforms and governance, GraphRAG, graph neural networks]
+      - name: Data engineering
+        keywords: [Lakehouse (Bronze/Silver/Gold), Apache Spark, Delta Lake, Airflow, Azure Synapse, Azure Data Factory, data warehousing, OLAP]
+      - name: Languages and tools
+        keywords: [Python, SQL, Neo4j, Power BI, Pentaho, Docker]
+      - name: Cloud
+        keywords: [Microsoft Azure, Azure AI Foundry, AWS]
+
+    Languages:
+      - name: Portuguese
+        summary: Native speaker
+
+      - name: English
+        summary: Full professional proficiency
