@@ -16,10 +16,10 @@ Academic website of Fernando Maia da Mota, built with [al-folio](https://github.
 ## Running locally
 
 ```bash
-docker compose -f docker-compose-slim.yml up
+docker compose up -d --build
 ```
 
-Then open <http://localhost:8080>.
+Then open <http://localhost:8080>. The site rebuilds when files change; `docker compose down` stops it.
 
 ## Deploy
 
