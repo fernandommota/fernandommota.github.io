@@ -69,13 +69,16 @@ cv:
           - "**BIM analytics platform:** modeled IFC building models as graphs and loaded them into a Bronze/Silver/Gold lakehouse covering 70+ active and 50+ completed projects (700+ models), giving the BIM team cross-project indicators of model quality and clash history. Proofs of concept: [gnn_bim](https://github.com/fernandommota/gnn_bim), [graphrag_bim](https://github.com/fernandommota/graphrag_bim)."
           - "**CRM to lakehouse sync:** incremental synchronization of Microsoft Dynamics (Dataverse) data into Delta tables, which moved analytics out of the CRM and cut Dataverse storage from about 750 GB to 200 GB."
           - "**Schedule:** a declarative ingestion framework on Spark and Delta Lake (Azure Synapse) that let junior engineers add sources by configuration; it ran about 20,000 ingestion jobs a month at peak."
-          - "Lakehouse on Azure Data Lake and Delta Lake, with Azure Synapse, Data Factory, Apache Spark and Airflow; Power BI reporting. Architecture work contributed to an estimated 25–35% reduction in analytics processing costs."
+          - "Led the migration of QlikView solutions and on-premises Power BI reports to a cloud lakehouse with Delta tables and a governed semantic layer in Power BI workspaces."
+          - "Lakehouse on Azure Data Lake and Delta Lake, with Azure Synapse, Data Factory, Apache Spark, Airflow and DuckDB. Architecture work contributed to an estimated 25–35% reduction in analytics processing costs."
 
       - company: Bov BI – Business Intelligence for Agribusiness
-        position: Founder; Data Engineer and BI Consultant
+        position: Founder and Data Architect
         start_date: 2016-03
         end_date: 2022-03
         highlights:
+          - "Founded and ran an analytics consultancy for agribusiness, from requirements with business leaders to deployment."
+          - "**Agribusiness analytics platform:** BI platform for a cattle producers association with 600+ producers and about 1,200 farms, with drill-down from executive KPIs to individual producers; it replaced manual reporting that took weeks and gave auditable metrics for negotiations with industry partners."
           - "Data warehouse design, ETL, OLAP cubes, reports and dashboards (Pentaho)."
           - "ERP, web and mobile development (Python/Django, Node.js APIs, Ionic)."
 
@@ -85,6 +88,7 @@ cv:
         end_date: 2015-12
         highlights:
           - "Instructor of the Pentaho suite; development of OLAP cubes, dashboards and ETL processes."
+          - "Principal committer of open-source Pentaho community extensions: [Kettle Web Integrator](https://github.com/it4biz/kettle-web-integrator) (web integration layer for Pentaho Data Integration), [Saiku Chart Plus](https://github.com/it4biz/SaikuChartPlus) (extra charts for Saiku Analytics) and [Pentaho CE Audit](https://github.com/it4biz/pentaho-ce-audit) (auditing and monitoring for Pentaho Community Edition)."
 
       - company: Federal University of Mato Grosso do Sul (UFMS)
         position: Substitute Lecturer
@@ -96,9 +100,10 @@ cv:
 
       - company: Federal University of Mato Grosso do Sul (UFMS)
         position: Undergraduate Researcher and Project Assistant
-        start_date: 2008
-        end_date: 2011
+        start_date: 2009-01
+        end_date: 2011-06
         highlights:
+          - "Data webhouse that consolidated national INEP school census data and state education systems, with drill-down from state to student level and indicators such as age–grade distortion and IDEB inputs."
           - "Research in data warehousing, Linked Data and web development; analyst for UFMS distance-education and institutional-evaluation systems."
 
     Awards:
