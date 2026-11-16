@@ -2,22 +2,28 @@
 ---
 
 @inproceedings{mota2026pbigrid,
+  preview     = {pbi_grid.gif},
   abbr        = {SBES},
   bibtex_show = {true},
   selected    = {true},
   title       = {{PBI Grid}: A Dashboard as Code Tool for Enhancing Maintainability and {GovBR} Compliance in {Power BI} Reports},
-  author      = {da Mota, Fernando Maia and Xavier, Eos and Paiva, Debora and Marcacini, Ricardo and Turine, Marcelo},
+  author      = {da Mota, Fernando Maia and Xavier, Eos and Paiva, Debora and Matsubara, Edson Takashi and Marcacini, Ricardo and Turine, Marcelo and Borges, Vanessa},
   booktitle   = {Simpósio Brasileiro de Engenharia de Software (SBES)},
   address     = {São Paulo, Brazil},
+  publisher   = {SBC},
+  pages       = {1195--1201},
   year        = {2026},
+  doi         = {10.5753/sbes.2026.27595},
   abstract    = {Power BI is widely used by Brazilian federal agencies to publish public-sector dashboards. Despite the existence of the Brazilian Government Digital Standard (GovBR), many of these dashboards do not comply with its visual identity, accessibility, and interface consistency requirements. The Power BI Enhanced Report Format (PBIR) exposes pages and visuals as JSON files but still relies on absolute pixel coordinates and lacks declarative layout abstractions. This paper presents PBI Grid, an open-source command-line tool that compiles declarative YAML specifications into PBIR artifacts. The tool combines three main elements: a declarative language based on 12-column grids, a deterministic layout engine that resolves declarative specifications into PBIR-compatible coordinates, and an extensible theming system with a reference govbr package that codifies the GovBR visual identity for Power BI dashboards. PBI Grid was used to reconstruct a production CAPES dashboard under the GovBR standard; on a bundled, redistributable synthetic example (countries_population), it reduces the layout specification by approximately 89% while remaining amenable to code review and continuous integration. An extract command enables incremental adoption by reconstructing YAML specifications from existing PBIR reports.},
-  pdf         = {https://cbsoft.sbc.org.br/2026/data/papers/sbes/PBI%20Grid%20A%20Dashboard%20as%20Code%20Tool%20for%20Enhancing%20Maintainability%20and%20GovBR%20Compliance%20in%20Power%20BI%20Reports.pdf},
+  html        = {https://sol.sbc.org.br/index.php/sbes/article/view/47262},
+  pdf         = {https://sol.sbc.org.br/index.php/sbes/article/download/47262/47018},
   code        = {https://github.com/OESNPG/pbi-grid},
   video       = {https://zenodo.org/records/21462034},
   supp        = {https://doi.org/10.5281/zenodo.22135423}
 }
 
 @inproceedings{xavier2026rampart,
+  preview     = {rampart.png},
   abbr        = {SBBD},
   bibtex_show = {true},
   selected    = {true},
@@ -34,6 +40,7 @@
 }
 
 @inproceedings{mota2017bovreveals,
+  preview     = {bovreveals.png},
   abbr        = {SBIAgro},
   bibtex_show = {true},
   title       = {BovReveals: uma plataforma {OLAP} e data mining para tomada de decisão na pecuária de corte},
@@ -41,20 +48,25 @@
   booktitle   = {XI Congresso Brasileiro de Agroinformática (SBIAgro)},
   address     = {Campinas, Brazil},
   year        = {2017},
-  html        = {https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1080799/bovreveals-uma-plataforma-olap-e-data-mining-para-tomada-de-decisao-na-pecuaria-de-corte}
+  html        = {https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1080799/bovreveals-uma-plataforma-olap-e-data-mining-para-tomada-de-decisao-na-pecuaria-de-corte},
+  pdf         = {https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1080799/1/BovRevealsumaplataformaOLAP.pdf}
 }
 
 @mastersthesis{mota2016msc,
+  preview     = {mota2016msc.png},
   abbr        = {MSc},
   title       = {Uma Abordagem de Análises {OLAP} e de Mineração de Dados para Suporte à Tomada de Decisão no Setor da Pecuária de Corte do Brasil},
   author      = {da Mota, Fernando Maia},
   school      = {Universidade Federal de Mato Grosso do Sul (UFMS)},
   type        = {Professional master's thesis in Applied Computing},
   address     = {Campo Grande, Brazil},
-  year        = {2016}
+  year        = {2016},
+  abstract    = {Observa-se na atividade da agropecuária brasileira esforços voltados para a produção de carne bovina com qualidade acima da média brasileira. Recentemente, a indústria da carne criou programas de incentivo à produção de carcaças bovinas com características específicas como sexo, peso de carcaça, idade do animal e grau de acabamento (gordura sobre a carcaça) com bonificação para as carcaças que se enquadrem e descontos para as que não. Problemas no processo de produção e de abate nas indústrias frigoríficas costumam ser o principal motivo de desclassificação de carcaças e, consequentemente, de perdas financeiras dos pecuaristas. Portanto, neste trabalho é proposta uma abordagem de análise de dados que utiliza de meios computacionais como armazém de dados (Data Warehouse), consultas analíticas online (OLAP) e mineração de dados (Data Mining) integradas e em conjunto com as habilidades humanas para servir de suporte à tomada de decisão. A abordagem se divide em 4 etapas, a primeira é responsável pela extração, transformação e carga dos dados fornecidos pela Associação Sul-matogrossense de Produtores de Novilho Precoce (ASPNP), seguido da etapa de criação do modelo multidimensional para armazenagem dos dados oriundos da primeira etapa. Na sequência a etapa de visualização e exploração dos dados armazenados no Data Warehouse, é caracterizada pela configuração e personalização das ferramentas da suíte open source Pentaho. Na última etapa é realizada a aplicação de algoritmos de Data Mining com a ferramenta open source Weka com objetivo de descobrir padrões e relacionamentos vinculados ao grau de acabamento e ao rendimento de carcaça. Os resultados alcançados até a terceira etapa na forma de um portal de análise de dados da ASPNP se mostraram satisfatórios, uma vez que encontram-se em efetivo uso e constante evolução. Embora a quarta etapa tenha sido concluída, durante sua execução foram identificadas inconsistências nos dados fornecidos, como por exemplo o armazenamento do peso vivo do animais na forma de média por lote, isso ocasiona perda de precisão na aplicação dos algoritmos de Data Mining. Em contrapartida, ao se utilizar um conjunto de dados considerado ideal foi possível obter classificadores com taxa de acerto médio entre 70% a 80%. Desta forma, os resultados da quarta etapa evidenciam que é possível utilizar de técnicas de Data Mining no contexto deste trabalho mas que para isso é necessário que os dados utilizados sejam precisos e consistentes.},
+  pdf         = {mota2016msc.pdf}
 }
 
 @inproceedings{mota2014mineracao,
+  preview     = {mineracao_visual.png},
   abbr        = {SIMPEC},
   title       = {Mineração visual de dados para suporte à tomada de decisão no segmento de produção de carne bovina},
   author      = {da Mota, Fernando Maia and Ishii, Renato Porfirio and Gomes, Rodrigo da Costa and Menezes, Gilberto Romeiro de Oliveira},
@@ -62,10 +74,12 @@
   address     = {Campo Grande, Brazil},
   year        = {2014},
   note        = {Abstract},
-  html        = {http://www.alice.cnptia.embrapa.br/alice/handle/doc/1010873}
+  html        = {http://www.alice.cnptia.embrapa.br/alice/handle/doc/1010873},
+  pdf         = {https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1010873/1/mineracaovisualdedadosparasuporteatomadadedecisaonosegmentodeproducaodecarnebovina.pdf}
 }
 
 @article{salas2012ijsc,
+  preview     = {statistical_data_web_cubeviz.png},
   abbr        = {IJSC},
   bibtex_show = {true},
   selected    = {true},
@@ -73,22 +87,33 @@
   author      = {Salas, Percy E. Rivera and da Mota, Fernando Maia and Breitman, Karin K. and Casanova, Marco A. and Martin, Michael and Auer, Sören},
   journal     = {International Journal of Semantic Computing},
   volume      = {6},
+  number      = {4},
   pages       = {373--388},
-  year        = {2012}
+  year        = {2012},
+  publisher   = {World Scientific},
+  doi         = {10.1142/S1793351X12400119},
+  note        = {Extended version of the ICSC 2012 paper}
 }
 
 @inproceedings{salas2012icsc,
+  preview     = {statistical_data_web.png},
   abbr        = {ICSC},
   bibtex_show = {true},
   title       = {Publishing Statistical Data on the Web},
   author      = {Salas, Percy E. Rivera and Martin, Michael and da Mota, Fernando Maia and Auer, Sören and Breitman, Karin K. and Casanova, Marco A.},
   booktitle   = {Proceedings of the 6th IEEE International Conference on Semantic Computing (ICSC)},
   address     = {Palermo, Italy},
+  publisher   = {IEEE},
+  pages       = {285--292},
   year        = {2012},
-  pdf         = {http://www-di.inf.puc-rio.br/~casanova/Publications/Papers/2012-Papers/2012-ICSC.pdf}
+  doi         = {10.1109/ICSC.2012.16},
+  abstract    = {Statistical data is one of the most important sources of information, relevant for large numbers of stakeholders in the governmental, scientific and business domains alike. In this article, we overview how statistical data can be managed on the Web. With OLAP2DataCube and CSV2DataCube we present two complementary approaches on how to extract and publish statistical data. We also discuss the linking, repair and the visualization of statistical data. As a comprehensive use case, we report on the extraction and publishing on the Web of statistical data describing 10 years of life in Brazil.},
+  html        = {https://research.uni-hannover.de/en/publications/publishing-statistical-data-on-the-web/},
+  pdf         = {https://www-di.inf.puc-rio.br/%7Ecasanova/Publications/Papers/2012-Papers/2012-ICSC.pdf}
 }
 
 @inproceedings{salas2012olap2datacube,
+  preview     = {olap2datacube.png},
   abbr        = {TOPI},
   bibtex_show = {true},
   title       = {{OLAP2DataCube}: An {OntoWiki} Plug-in for Statistical Data Publishing},
@@ -97,10 +122,24 @@
   address     = {Zurich, Switzerland},
   pages       = {79--83},
   year        = {2012},
-  pdf         = {http://www-di.inf.puc-rio.br/~casanova/Publications/Papers/2012-Papers/2012-TOPI-olap.pdf}
+  pdf         = {https://www-di.inf.puc-rio.br/%7Ecasanova/Publications/Papers/2012-Papers/2012-TOPI-olap.pdf}
+}
+
+@thesis{mota2011tcc,
+  preview     = {mota2011tcc.png},
+  abbr        = {BSc},
+  title       = {Uma Estratégia para Publicação dos Dados da Base do {CEB-INEP/MEC} no Padrão {Linked Open Data}},
+  author      = {da Mota, Fernando Maia},
+  type        = {Undergraduate thesis in Information Systems},
+  school      = {Universidade Federal de Mato Grosso do Sul (UFMS), Coxim campus},
+  address     = {Coxim, Brazil},
+  year        = {2011},
+  abstract    = {Dados governamentais abertos consistem na publicação de dados sobre informações públicas em formatos que permitem o seu compartilhamento, acesso, descoberta e fácil manipulação pelos consumidores desses dados. Linked Open Data é um padrão da Web semântica que se baseia na representação de dados em forma de triplas RDF. Este trabalho propõe uma estratégia para publicação dos dados da base de dados do Censo Educacional Brasileiro (CEB) no padrão Linked Open Data; neste censo são coletados dados sobre os estabelecimentos de ensino, matrículas, funções dos docentes e rendimento escolar. A estratégia se caracteriza em 6 passos: a carga dos microdados do Instituto Nacional de Estudos e Pesquisas Educacionais (INEP) para um Sistema de Gerenciamento de Banco de Dados (SGBD), a avaliação das tabelas criadas para a criação de um modelo lógico normalizado de banco de dados, a implementação de uma ferramenta em Java para carregar os dados no novo modelo criado, a aplicação da ferramenta STDTRIP, a geração das triplas em RDF utilizando a ferramenta Triplify e, finalmente, o armazenamento das triplas em um servidor de triplas. Esta estratégia foi implementada neste trabalho utilizando-se os dados do CEB do ano de 1995.},
+  pdf         = {mota2011tcc.pdf}
 }
 
 @inproceedings{mota2010ceb,
+  preview     = {ceb_inep.png},
   abbr        = {ERI-MT},
   title       = {Data Webhouse {CEB-INEP}: um Data Webhouse a partir dos Microdados do Censo Escolar Básico {INEP/MEC}},
   author      = {da Mota, Fernando Maia and Rossi, L. L. and Turine, Marcelo and Campelo, A. L.},
@@ -108,15 +147,19 @@
   address     = {Cuiabá, Brazil},
   pages       = {38--39},
   year        = {2010},
-  note        = {Abstract}
+  note        = {Abstract},
+  pdf         = {mota2010ceb.pdf},
+  poster      = {mota2010ceb_poster.pdf}
 }
 
 @inproceedings{mota2009dwsi,
+  preview     = {dwsi.png},
   abbr        = {ENECOMP},
   title       = {{DWSI}: Data Webhouse para Análise do Perfil Acadêmico do Curso de Sistemas de Informação -- {UFMS/CPCX}},
   author      = {da Mota, Fernando Maia and Rossi, L. L. and Campelo, A. L. and Mendes, L. H. P. and Aragão, A. L.},
   booktitle   = {XXVII Congresso Nacional dos Estudantes de Computação (ENECOMP)},
   year        = {2009},
   award       = {2nd place in the presentation of accepted papers.},
-  slides      = {https://pt.slideshare.net/FernandoMaiaMota/dwsi-datawebhouse-para-anlise-do-perfil-acadmico-do-curso-de-sistemas-de-informao-cpcxufms}
+  slides      = {https://pt.slideshare.net/FernandoMaiaMota/dwsi-datawebhouse-para-anlise-do-perfil-acadmico-do-curso-de-sistemas-de-informao-cpcxufms},
+  pdf         = {mota2009dwsi.pdf}
 }
