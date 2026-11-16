@@ -8,8 +8,8 @@ middle_name: Maia da
 last_name: Mota
 contact_note: >
   Email is the best way to reach me.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD student in Computer Science at FACOM/UFMS. Research on text anonymization and privacy risks of large language models, data engineering and AI applied to information systems.
+description: >- # ">-" folds the lines and drops the trailing newline, which would break the JSON-LD
+  Fernando Maia da Mota is a PhD student in Computer Science at FACOM/UFMS, Brazil, researching text anonymization and privacy risks of large language models, and a senior data and AI engineer.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -111,7 +111,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/fernando-maia-da-mota.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -295,6 +295,10 @@ plugins:
 defaults:
   - scope:
       path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: "googleb97e4a035c8c1aa8.html" # Google Search Console verification file
     values:
       sitemap: false
 
