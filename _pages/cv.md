@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 4
 cv_format: rendercv # options: rendercv, jsonresume
-description: Education, experience and awards. The full academic record is on <a href='http://lattes.cnpq.br/7189235418853671'>Lattes</a>.
+description: CV of Fernando Maia da Mota, PhD student at UFMS and senior data and AI engineer — education, experience, skills and awards.
 toc:
   sidebar: left
 ---

@@ -6,7 +6,7 @@ subtitle: PhD student in Computer Science · <a href='https://www.facom.ufms.br/
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: fernando-maia-da-mota.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Faculty of Computing (FACOM)</p>
@@ -34,3 +34,33 @@ I am a PhD student in Computer Science at the Faculty of Computing ([FACOM](http
 I hold a BSc in Information Systems (2011) and a professional MSc in Applied Computing (2016), both from UFMS. My master's work combined OLAP and data mining to support decision making in beef cattle production. As an undergraduate, I worked on publishing statistical data as Linked Data with researchers from PUC-Rio and the University of Leipzig.
 
 **Interests:** privacy in natural language processing, large language models, information extraction, knowledge graphs and data engineering.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Fernando Maia da Mota",
+  "alternateName": ["Fernando Mota", "Fernando M. Mota", "Fernando Maia Mota", "F. M. da Mota"],
+  "url": "https://fernandommota.github.io/",
+  "image": "https://fernandommota.github.io/assets/img/fernando-maia-da-mota.jpg",
+  "jobTitle": "PhD student in Computer Science",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Federal University of Mato Grosso do Sul (UFMS)",
+    "url": "https://www.ufms.br/"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Federal University of Mato Grosso do Sul (UFMS)",
+    "url": "https://www.ufms.br/"
+  },
+  "knowsAbout": ["Text anonymization", "Privacy in natural language processing", "Large language models", "Data engineering", "Knowledge graphs", "Information extraction"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=aNGID_QAAAAJ",
+    "https://orcid.org/0009-0007-4266-455X",
+    "http://lattes.cnpq.br/7189235418853671",
+    "https://github.com/fernandommota",
+    "https://www.linkedin.com/in/fernandommota"
+  ]
+}
+</script>
