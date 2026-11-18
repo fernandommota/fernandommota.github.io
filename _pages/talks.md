@@ -1,0 +1,82 @@
+---
+layout: page
+permalink: /talks/
+title: talks
+description: Talks, tutorials and demo videos by Fernando Maia da Mota on data engineering, business intelligence and open-source analytics tools.
+nav: true
+nav_order: 3
+---
+
+<style>
+  .yt-facade { position: relative; display: block; aspect-ratio: 16 / 9; overflow: hidden; background: #000; cursor: pointer; }
+  .yt-facade img, .yt-facade iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: cover; }
+  .yt-facade::after { content: ""; position: absolute; left: 50%; top: 50%; width: 68px; height: 48px; transform: translate(-50%, -50%);
+    border-radius: 12px; background: rgba(23, 23, 23, 0.8) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68 48'%3E%3Cpath d='M27 15v18l16-9z' fill='%23fff'/%3E%3C/svg%3E") center / 100% no-repeat;
+    transition: background-color 0.15s; }
+  .yt-facade:hover::after, .yt-facade:focus-visible::after { background-color: #f00; }
+  .yt-facade.playing::after { display: none; }
+</style>
+
+More on my [YouTube channel](https://www.youtube.com/@fernandommota). Talks and tutorials are in Portuguese.
+
+## Demos
+
+<div class="row">
+  <div class="col-sm-6 mb-4">
+    <a class="yt-facade rounded z-depth-1" href="https://www.youtube.com/watch?v=3WtDYCx9z-k" data-id="3WtDYCx9z-k" target="_blank" rel="noopener" aria-label="Play video: PBI Grid demo"><img src="{{ '/assets/img/videos/pbi-grid-demo.jpg' | relative_url }}" loading="lazy" width="640" height="360" alt="PBI Grid demo: a Power BI report with the GovBR theme generated from a YAML layout"></a>
+    <p class="mt-2 mb-0"><a href="https://www.youtube.com/watch?v=3WtDYCx9z-k" target="_blank" rel="noopener"><b>PBI Grid: A DaC Tool for Enhancing Maintainability and govbr Compliance in Power BI Reports</b></a></p>
+    <p class="small text-muted mb-0">November 2026 · tool demo · in English</p>
+    <p class="small mb-0">From a YAML layout to a Power BI report: the 12-column grid, the debug grid, the <code>extract</code> command and the GovBR theme. Companion to the <a href="{{ '/publications/' | relative_url }}">SBES 2026 paper</a>; also archived on <a href="https://zenodo.org/records/21462034" target="_blank" rel="noopener">Zenodo</a>.</p>
+  </div>
+</div>
+
+## Talks
+
+<div class="row">
+  <div class="col-sm-6 mb-4">
+    <a class="yt-facade rounded z-depth-1" href="https://www.youtube.com/watch?v=NoguDEdvF-4" data-id="NoguDEdvF-4" target="_blank" rel="noopener" aria-label="Play video: Inteligência na Tomada de Decisão e Agronegócio"><img src="{{ '/assets/img/videos/uems-agribusiness-talk.jpg' | relative_url }}" loading="lazy" width="640" height="360" alt="Talk: Inteligência na Tomada de Decisão e Agronegócio"></a>
+    <p class="mt-2 mb-0"><a href="https://www.youtube.com/watch?v=NoguDEdvF-4" target="_blank" rel="noopener"><b>Inteligência na Tomada de Decisão e Agronegócio: um estudo de caso no setor da pecuária</b></a></p>
+    <p class="small text-muted mb-0">August 2020 · online talk for Business Administration students, UEMS Ponta Porã</p>
+    <p class="small mb-0">Business intelligence for decision making in agribusiness, with a case study in beef cattle production.</p>
+  </div>
+</div>
+
+## Tutorials
+
+<div class="row">
+  <div class="col-sm-6 mb-4">
+    <a class="yt-facade rounded z-depth-1" href="https://www.youtube.com/watch?v=KumP833f5LQ" data-id="KumP833f5LQ" target="_blank" rel="noopener" aria-label="Play video: Dashboards com Pentaho, part 1"><img src="{{ '/assets/img/videos/pentaho-dashboards-1.jpg' | relative_url }}" loading="lazy" width="640" height="360" alt="Dashboards com Pentaho, part 1"></a>
+    <p class="mt-2 mb-0"><a href="https://www.youtube.com/watch?v=KumP833f5LQ" target="_blank" rel="noopener"><b>Dashboards com Pentaho – do zero ao avançado</b></a></p>
+    <p class="small text-muted mb-0">May 2020 · live tutorial, part 1</p>
+  </div>
+  <div class="col-sm-6 mb-4">
+    <a class="yt-facade rounded z-depth-1" href="https://www.youtube.com/watch?v=MU-vGrWce3k" data-id="MU-vGrWce3k" target="_blank" rel="noopener" aria-label="Play video: Dashboards com Pentaho, part 2"><img src="{{ '/assets/img/videos/pentaho-dashboards-2.jpg' | relative_url }}" loading="lazy" width="640" height="360" alt="Dashboards com Pentaho, part 2"></a>
+    <p class="mt-2 mb-0"><a href="https://www.youtube.com/watch?v=MU-vGrWce3k" target="_blank" rel="noopener"><b>Dashboards com Pentaho – do zero ao avançado, parte 2</b></a></p>
+    <p class="small text-muted mb-0">August 2020 · live tutorial, part 2</p>
+  </div>
+  <div class="col-sm-6 mb-4">
+    <a class="yt-facade rounded z-depth-1" href="https://www.youtube.com/watch?v=2dpNhCOVt7A" data-id="2dpNhCOVt7A" target="_blank" rel="noopener" aria-label="Play video: Autenticação no Pentaho Server baseada em token"><img src="{{ '/assets/img/videos/pentaho-token-auth.jpg' | relative_url }}" loading="lazy" width="640" height="360" alt="Autenticação no Pentaho Server baseada em token"></a>
+    <p class="mt-2 mb-0"><a href="https://www.youtube.com/watch?v=2dpNhCOVt7A" target="_blank" rel="noopener"><b>Autenticação no Pentaho Server baseada em token</b></a></p>
+    <p class="small text-muted mb-0">January 2021 · tutorial</p>
+    <p class="small mb-0">Embedding the Pentaho BA server in a web application with token authentication. Code: <a href="https://github.com/fernandommota/embed-pentaho-server" target="_blank" rel="noopener">embed-pentaho-server</a>.</p>
+  </div>
+</div>
+
+<script>
+  // Click-to-play: swap the self-hosted thumbnail for the YouTube player only when the visitor asks for it.
+  document.querySelectorAll(".yt-facade").forEach((el) => {
+    el.addEventListener("click", (event) => {
+      if (el.classList.contains("playing")) return;
+      event.preventDefault();
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://www.youtube-nocookie.com/embed/${el.dataset.id}?autoplay=1&rel=0`;
+      iframe.title = el.getAttribute("aria-label").replace("Play video: ", "");
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      el.classList.add("playing");
+      el.removeAttribute("href");
+      el.replaceChildren(iframe);
+      iframe.focus();
+    });
+  });
+</script>
