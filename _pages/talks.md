@@ -13,10 +13,10 @@ More on my [YouTube channel](https://www.youtube.com/@fernandommota). Talks and 
 
 <div class="row">
   <div class="col-sm-6 mb-4">
-    <a href="https://zenodo.org/records/21462034" target="_blank" rel="noopener"><img src="{{ '/assets/img/videos/pbi-grid-demo.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" loading="lazy" width="640" height="360" alt="PBI Grid demo: a Power BI report generated from a YAML layout"></a>
-    <p class="mt-2 mb-0"><a href="https://zenodo.org/records/21462034" target="_blank" rel="noopener"><b>PBI Grid demo</b></a></p>
-    <p class="small text-muted mb-0">2026 · Zenodo · in English</p>
-    <p class="small mb-0">From a YAML layout to a Power BI report: the 12-column grid, the debug grid, the <code>extract</code> command and the GovBR theme. Companion to the <a href="{{ '/publications/' | relative_url }}">SBES 2026 paper</a>.</p>
+    <a href="https://www.youtube.com/watch?v=3WtDYCx9z-k" target="_blank" rel="noopener"><img src="{{ '/assets/img/videos/pbi-grid-demo.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" loading="lazy" width="640" height="360" alt="PBI Grid demo: a Power BI report with the GovBR theme generated from a YAML layout"></a>
+    <p class="mt-2 mb-0"><a href="https://www.youtube.com/watch?v=3WtDYCx9z-k" target="_blank" rel="noopener"><b>PBI Grid: A DaC Tool for Enhancing Maintainability and govbr Compliance in Power BI Reports</b></a></p>
+    <p class="small text-muted mb-0">November 2026 · tool demo · in English</p>
+    <p class="small mb-0">From a YAML layout to a Power BI report: the 12-column grid, the debug grid, the <code>extract</code> command and the GovBR theme. Companion to the <a href="{{ '/publications/' | relative_url }}">SBES 2026 paper</a>; also archived on <a href="https://zenodo.org/records/21462034" target="_blank" rel="noopener">Zenodo</a>.</p>
   </div>
 </div>
 
